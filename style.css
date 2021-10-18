@@ -1,5 +1,29 @@
-/* Type your code here */
+.header img {
+	float: right;
+  border:1px solid black;
+ 
 
+	
+  }
+  body {
+	height: 100%;
+    border:1px white;
+  
+    
+  }
+  h2{
+	 font-family:'Times New Roman';
+    border:1px solid white;
+  }
+  table{
+	  padding:right;
+	  image-rendering: inherit;
+	  box-sizing: border-box;
+	  size: 100%;
+    border:1px solid black;
+	
+
+  }
 
 /* change the font family and spacing as per your project font */
 .footer{
@@ -11,6 +35,60 @@
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
+    font-style:normal;
+  
     
 }
+h2
+{
+  margin-left: 80px;
+	font-size: 30px;
+	font-family:Times new roman;
+    font-style:normal;
+}
+h4{
+	background-color: orangered;
+	initial-letter-align: 3px;
+  border:1px solid black;
+
+}
+h4{
+	/*background-color: orang;*/
+	initial-letter-align: 3px;
+	/*text-align: center;*/
+  text-align: center;
+  border:1px solid black;
+  
+}
+div{
+	height:fit-content;
+	padding-right: 20px;
+	align-self: start;
+	flex: 0 2 100px;
+  border:1px solid black;
+  background-color: whitesmoke;
+  
+}
+th
+{
+  background-color: whitesmoke;
+  border:1px solid black;
+  
+}
+td:nth-of-type(2) {
+	padding-right: 10px;
+   display:flex;
+  border:1px solid black;
+  background-color: whitesmoke;
+  justify-content:space-evenly;
+  
+ }
+td{
+  border:1px solid black;
+  justify-content:space-evenly;
+   
+}
+ img{
+	 height:100%;
+	 align-self: start;
+ }
